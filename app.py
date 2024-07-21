@@ -9,7 +9,7 @@ model = joblib.load('best_model.pkl')
 
 @app.route('/')
 def home():
-    return "Model Deployment using Flask and Render.com"
+    return "Model Deployment using Flask and Vercel.com"
 
 @app.route('/predict', methods=['POST'])
 def predict():
