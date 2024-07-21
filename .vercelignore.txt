@@ -1,0 +1,7 @@
+# .vercelignore
+tests/
+docs/
+*.md
+*.txt
+data/
+notebooks
